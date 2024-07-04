@@ -1,6 +1,7 @@
 .contact-container{
     margin: 4rem 0;
     position: relative;
+    max-width: 1288px;
 }
 
 .contact-container h5{
