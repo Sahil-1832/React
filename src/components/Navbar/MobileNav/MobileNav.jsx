@@ -7,12 +7,7 @@ const url = "http://localhost:5173/Sahil_Resume.pdf";
 const MobileNav = ({isOpen,toggleMenu}) =>{
 
     const downloadFireAtURL = (url) => {
-        const aTag = document.createElement('a');
-        aTag.href = url;
-        aTag.setAttribute('download','pdf');
-        document.body.appendChild(aTag);
-        aTag.click();
-        aTag.remove();
+        window.open(url,"_blank");
     }
 
     return(
