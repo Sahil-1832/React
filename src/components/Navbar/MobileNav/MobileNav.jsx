@@ -1,7 +1,7 @@
 import React from 'react'
 import "./MobileNav.css"
 
-const url = "http://localhost:5173/Sahil_Resume.pdf";
+const url = "https://drive.google.com/file/d/1C9lzakSSWlEqKzFFrfNQ3XCiGNCpXL-T/view?usp=drivesdk";
 
 
 const MobileNav = ({isOpen,toggleMenu}) =>{

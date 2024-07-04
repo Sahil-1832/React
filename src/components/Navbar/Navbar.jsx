@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./Navbar.css";
 import "material-symbols";
 import MobileNav from './MobileNav/MobileNav';
-const url = "http://localhost:5173/Sahil_Resume.pdf";
+const url = "https://drive.google.com/file/d/1C9lzakSSWlEqKzFFrfNQ3XCiGNCpXL-T/view?usp=drivesdk";
 
 const Navbar = () =>{
 
