@@ -2,54 +2,54 @@ import React, { useState } from 'react';
 import "./Navbar.css";
 import "material-symbols";
 import MobileNav from './MobileNav/MobileNav';
-const url = "https://drive.google.com/file/d/1C9lzakSSWlEqKzFFrfNQ3XCiGNCpXL-T/view?usp=drivesdk";
+const url = "https://drive.google.com/file/d/1GWJtH8cMRAirU_u_rw8QXIRH0ZRT4kv8/view?usp=drivesdk";
 
-const Navbar = () =>{
+const Navbar = () => {
 
-    const [openMenu,setOpenMenu] = useState(false);
-    const toggleMenu = () =>{
+    const [openMenu, setOpenMenu] = useState(false);
+    const toggleMenu = () => {
         setOpenMenu(!openMenu);
     };
 
     const downloadFireAtURL = (url) => {
         window.open(url,"_blank");
     };
-    return(
+    return (
         <>
-        <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
-           <nav className="nav-wrapper">
-            <div className="nav-content">
-                <img className="logo" src='./assets/new.png' alt="Nothing" />
-                <ul className="nav-list">
-                    <li>
-                        <a href="#hero" className="menu-item">Home</a>
-                    </li>
-                    <li>
-                        <a href="#about" className="menu-item">About</a>
-                    </li>
-                    <li>
-                        <a href="#skills" className="menu-item">Skills</a>
-                    </li>
-                    <li>
-                        <a href="#projects" className="menu-item">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#contactMe" className="menu-item">Contact Me</a>
-                    </li>
+            <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
+            <nav className="nav-wrapper">
+                <div className="nav-content">
+                    <img className="logo" src='./assets/new.png' alt="Nothing" />
+                    <ul className="nav-list">
+                        <li>
+                            <a href="#hero" className="menu-item">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" className="menu-item">About</a>
+                        </li>
+                        <li>
+                            <a href="#skills" className="menu-item">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#projects" className="menu-item">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#contactMe" className="menu-item">Contact Me</a>
+                        </li>
 
-                    <button className="contact-btn" onClick={()=>{downloadFireAtURL(url)}}>Hire me</button>
-                </ul>
+                        <button className="contact-btn" onClick={() => { downloadFireAtURL(url) }}>Hire me</button>
+                    </ul>
 
-                <button class="menu-btn" onClick={toggleMenu}>
-                    <span   
-                        class={"material-symbols-outlined"}
-                        style={{fontSize:"1.8rem"}}
-                    >
-                        {openMenu ? "close" : "menu"}
-                    </span>
-                </button>
-            </div>
-           </nav>
+                    <button class="menu-btn" onClick={toggleMenu}>
+                        <span
+                            class={"material-symbols-outlined"}
+                            style={{ fontSize: "1.8rem" }}
+                        >
+                            {openMenu ? "close" : "menu"}
+                        </span>
+                    </button>
+                </div>
+            </nav>
         </>
     );
 }
