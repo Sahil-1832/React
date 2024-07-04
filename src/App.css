@@ -3,7 +3,6 @@ html {
 }
 
 .container{
-    max-width: 1250px !important;
     position: relative;
     padding: 0 1.5rem;
 }
