@@ -13,10 +13,10 @@ export const SKILLS = [
         title:"Backend",
         icon:"./assets/backend.png",
         skills:[
-            {skill:"Node.js", percentage:"70%"},
-            {skill:"Express.js", percentage:"65%"},
-            {skill:"FireBase", percentage:"85%"},
-            {skill:"SQL", percentage:"80%"},
+            {skill:"Java", percentage:"85%"},
+            {skill:"PHP", percentage:"75%"},
+            {skill:"FireBase", percentage:"80%"},
+            {skill:"SQL", percentage:"85%"},
         ],
     },
     {
