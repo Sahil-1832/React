@@ -3,12 +3,13 @@ import './Hero.css'
 
 const Hero = () =>{
     return (
-        <section className="hero-container">
+        <section className="hero-container" id="hero">
             <div className="hero-content">
-                <h2>Building Digital Experiences That Inspire</h2>
-                <p>
-                    Passionate Frontend Developer | Transforming Ideas into Seamless and
-                    Visually Stunning Web Solutions
+                <h2>Hello there, I'm<br></br> &lt; Sahil /&gt;</h2>
+                <p className="para">
+                    A passionate individual with a love for creativity, problem-solving, and continuous learning.
+                    I am excited to connect, collaborate, and explore new opportunities that allow me to make 
+                    a positive impact and grow both personally and professionally. Let's embark on this journey together...
                 </p>
             </div>
             <div className="hero-img">

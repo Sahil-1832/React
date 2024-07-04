@@ -7,6 +7,7 @@
     border-radius: 0.65rem;
     border: 1.5px solid #6751b9;
     padding: 1.5rem;
+    width: 15rem;
     margin-bottom: 2rem;
 }
 
@@ -22,7 +23,7 @@
 }
 
 .icon img{
-    width: 1.8rem;
+    width: 2.5rem;
     height: auto;
     object-fit: contain;
 }

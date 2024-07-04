@@ -1,12 +1,16 @@
 import React from 'react'
 import "./ContactInfoCard.css"
 
-const ContactInfoCard = ({iconUrl,text}) =>{
+const ContactInfoCard = ({iconUrl,text,url}) =>{
+
+    const handleDivClick = () => {
+        window.open(url, '_blank');
+    };
+    
     return(
         <div className="contact-details-card">
             <div className="icon">
-                <img src={iconUrl} alt={text} />
-
+                <img onClick={handleDivClick} src={iconUrl} alt={text} />
             </div>
             <p>{text}</p>
         </div>

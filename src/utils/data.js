@@ -4,7 +4,7 @@ export const SKILLS = [
         icon:"./assets/frontend.png",
         skills:[
             {skill:"HTML5", percentage:"80%"},
-            {skill:"CSS3 (Sass/SCSS", percentage:"90%"},
+            {skill:"CSS3 (Sass/SCSS)", percentage:"90%"},
             {skill:"JavaScript", percentage:"75%"},
             {skill:"React.js", percentage:"80%"},
         ],
@@ -25,7 +25,7 @@ export const SKILLS = [
         skills:[
             {skill:"Git & GitHub", percentage:"80%"},
             {skill:"Visual Studio Code", percentage:"90%"},
-            {skill:"Webpack", percentage:"85%"},
+            {skill:"Android Studio", percentage:"85%"},
             {skill:"Responsive Design", percentage:"85%"},
         ],
     },

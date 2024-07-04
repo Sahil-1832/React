@@ -2,7 +2,11 @@
     display: flex;
     align-items: center;
     position: relative;
-    margin: 0 auto;
+    margin: -60px auto;
+}
+
+.para{
+    text-align: justify;
 }
 
 .hero-container::after,
